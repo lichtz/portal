@@ -1,6 +1,6 @@
 package com.licht.router_builder;
 
-import com.google.auto.service.AutoService;
+//import com.google.auto.service.AutoService;
 import com.licht.router_annotation.Router;
 import com.licht.router_annotation.model.RouterBean;
 import com.licht.router_builder.utils.Constants;
@@ -37,7 +37,7 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.Diagnostic;
 
-@AutoService(Processor.class)
+//@AutoService(Processor.class)
 @SupportedAnnotationTypes({Constants.ROUTER_ANNOTION_TYPES})
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @SupportedOptions({Constants.MODULE_NAME, Constants.PACKAGENAME})
