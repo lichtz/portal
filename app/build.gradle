@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 //def androidBuildId = rootProject.ext.app
 android {
     compileSdkVersion androidId.compileSdkVersion
@@ -16,6 +17,12 @@ android {
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = [ moduleName:project.getName(),packageNameForAPT:packageNameForAPT]
+            }
+        }
+        kapt {
+            arguments {
+                arg("gg", "value")
+                arg("dd", "value")
             }
         }
 
@@ -50,5 +57,5 @@ dependencies {
     implementation project(':router_annotation')
     implementation project(path: ':user')
     implementation project(path: ':common')
-    annotationProcessor project(':router_builder')
+    kapt project(':router_builder')
 }

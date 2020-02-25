@@ -1,6 +1,5 @@
 package com.licht.router_builder;
 
-//import com.google.auto.service.AutoService;
 import com.licht.router_annotation.Parameter;
 import com.licht.router_builder.factory.ParameterFactory;
 import com.licht.router_builder.utils.Constants;
@@ -21,10 +20,8 @@ import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.Filer;
 import javax.annotation.processing.Messager;
 import javax.annotation.processing.ProcessingEnvironment;
-import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
-import javax.annotation.processing.SupportedOptions;
 import javax.annotation.processing.SupportedSourceVersion;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
@@ -34,7 +31,6 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.Diagnostic;
 
-//@AutoService(Processor.class)
 @SupportedAnnotationTypes({Constants.PARAMETER_ANNOTION_TYPES})
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class ParameterProcesso extends AbstractProcessor {
