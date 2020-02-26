@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.licht.lichtportal.apt.Router$$Group$$user;
-import com.licht.nuble_framwork.api.core.RouterLoadPath;
-import com.licht.router_annotation.KAutor;
+import com.licht.router_annotation.KAppId;
 import com.licht.router_annotation.Router;
+import com.licht.router_annotation.interfaces.RouterLoadPath;
 
 
 @Router(path = "/app/Main2Activity")
-@KAutor(autorName = "licht")
+@KAppId(appid = "licht")
 public class Main2Activity extends AppCompatActivity {
 
     @Override

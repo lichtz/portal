@@ -1,4 +1,4 @@
-package com.licht.nuble_framwork.api.core;
+package com.licht.router_annotation.interfaces;
 
 
 import com.licht.router_annotation.model.RouterBean;

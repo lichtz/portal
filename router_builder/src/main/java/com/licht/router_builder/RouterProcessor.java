@@ -34,7 +34,6 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.Diagnostic;
 
-//@AutoService(Processor.class)
 @SupportedAnnotationTypes({Constants.ROUTER_ANNOTION_TYPES})
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @SupportedOptions({Constants.MODULE_NAME, Constants.PACKAGENAME})
