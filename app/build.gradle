@@ -53,5 +53,6 @@ dependencies {
     }
     implementation project(':router_annotation')
     implementation project(path: ':user')
+    implementation project(path: ':router_api')
     kapt project(':router_builder')
 }
