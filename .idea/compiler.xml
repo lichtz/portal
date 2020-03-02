@@ -6,6 +6,7 @@
       <module name="compiler" target="1.7" />
       <module name="niubeframwork" target="1.7" />
       <module name="router_annotation" target="1.7" />
+      <module name="router_api" target="1.7" />
       <module name="router_builder" target="1.7" />
     </bytecodeTargetLevel>
   </component>

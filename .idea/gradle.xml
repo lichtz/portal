@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/router_annotation" />
+            <option value="$PROJECT_DIR$/router_api" />
             <option value="$PROJECT_DIR$/router_builder" />
             <option value="$PROJECT_DIR$/user" />
           </set>

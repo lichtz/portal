@@ -11,8 +11,8 @@ public class Constants {
     public static final String ROUTE_PATH_INTERFACE =Constants.BASE_PACKAGE+".interfaces.RouterLoadPath";
     public static final String PATH_LOAD_NAME ="loadPath";
     public static final String PATH_PARAMEYER_NAME ="pathName";
-    public static final String GROUP_FILE_NAME = "Router$$Group$$";
-    public static final String PATH_FILE_NAME = "Router$$Path$$";
+    public static final String GROUP_FILE_NAME = "RouterGroup";
+    public static final String PATH_FILE_NAME = "RouterPath";
     public static final String GROUP_METHOD_NAME = "loadGroup";
     public static final String GROUP_PARAMETER_NAME = "groupMap";
 
@@ -20,6 +20,6 @@ public class Constants {
     public static final String PARAMETER_PATH_INTERFACE =Constants.BASE_PACKAGE+".interfaces.ParameterLoad";
     public static final String PARAMETER_NAME="target";
     public static final String PARAMETER_METHOD_NAME = "loadParameter";
-    public static final String PARAMETER_FILE_NAME = "$$Parameter";
+    public static final String PARAMETER_FILE_NAME = "Parameter";
 
 }
